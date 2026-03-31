@@ -13,8 +13,12 @@ export function CTASection() {
       <div className="relative mx-auto max-w-4xl px-4 text-center">
         {/* Badge */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+          </span>
           <span className="font-heading text-xs uppercase tracking-wider text-primary">
-            Limited Availability
+            Early Access Now Open
           </span>
         </div>
 
@@ -25,8 +29,8 @@ export function CTASection() {
         </h2>
         
         <p className="mx-auto mt-6 max-w-2xl font-body text-lg leading-relaxed text-muted-foreground">
-          Book your free automation audit today. We'll analyze your current lead flow 
-          and show you exactly how much revenue you're leaving on the table.
+          Join early access today to get ahead of your competitors. Book a free strategy call 
+          and see exactly how Imperium can transform your lead conversion.
         </p>
 
         {/* CTA Buttons */}
@@ -37,7 +41,7 @@ export function CTASection() {
             className="h-14 gap-2 bg-primary px-8 font-heading text-sm uppercase tracking-wider text-primary-foreground hover:bg-primary/90"
           >
             <a href="https://cal.com/imperuim-systems-vl0zgj/secret" target="_blank" rel="noopener noreferrer">
-              Book Your Free Audit
+              Book Free Strategy Call
               <ArrowRight className="h-4 w-4" />
             </a>
           </Button>
@@ -48,7 +52,7 @@ export function CTASection() {
             className="h-14 gap-2 border-border/50 px-8 font-heading text-sm uppercase tracking-wider hover:border-primary hover:bg-primary/10"
           >
             <Link href="/pricing">
-              View Pricing Plans
+              View Early Access Pricing
             </Link>
           </Button>
         </div>
@@ -57,15 +61,15 @@ export function CTASection() {
         <div className="mt-12 flex flex-wrap items-center justify-center gap-8">
           <div className="flex items-center gap-2 text-muted-foreground">
             <Shield className="h-5 w-5 text-primary" />
-            <span className="font-body text-sm">30-Day Money Back</span>
+            <span className="font-body text-sm">Lock In Best Rates</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <Clock className="h-5 w-5 text-primary" />
-            <span className="font-body text-sm">Setup in 48 Hours</span>
+            <span className="font-body text-sm">Priority Onboarding</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <Zap className="h-5 w-5 text-primary" />
-            <span className="font-body text-sm">Results in 7 Days</span>
+            <span className="font-body text-sm">Get Ahead of Competitors</span>
           </div>
         </div>
       </div>

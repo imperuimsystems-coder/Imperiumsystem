@@ -5,23 +5,23 @@ import { AlertTriangle, Clock, PhoneOff, TrendingDown } from "lucide-react"
 const problems = [
   {
     icon: PhoneOff,
-    title: "Missed Calls = Missed Money",
-    description: "78% of leads go to the first business that responds. If you're not answering instantly, your competitors are.",
+    title: "Missed Calls Equal Missed Money",
+    description: "78% of leads choose the first business that responds. If you are not answering instantly, your competitors are getting the job.",
   },
   {
     icon: Clock,
     title: "Slow Follow-Ups Kill Deals",
-    description: "The average service business takes 47 hours to follow up. By then, your lead has already hired someone else.",
+    description: "The average trade business takes 47 hours to follow up. By then, your lead has already hired someone else.",
   },
   {
     icon: TrendingDown,
-    title: "Manual Processes Don't Scale",
-    description: "You're spending hours on admin work instead of closing deals. Your time is worth more than data entry.",
+    title: "Overpriced Marketers Underdeliver",
+    description: "You are paying $500 to $2,000 a month for marketers who do basic SEO and make you chase them for results. There is a better way.",
   },
   {
     icon: AlertTriangle,
-    title: "Leads Fall Through Cracks",
-    description: "Without a system, warm leads go cold. You're paying for marketing that never converts.",
+    title: "Leads Fall Through the Cracks",
+    description: "Without a proper system, warm leads go cold. You are paying for marketing that never converts into actual jobs.",
   },
 ]
 
@@ -38,13 +38,13 @@ export function ProblemSection() {
             The Problem
           </p>
           <h2 className="font-display text-3xl font-bold leading-tight text-foreground md:text-4xl lg:text-5xl">
-            <span className="text-balance">You're Losing Leads Every Day.</span>
+            <span className="text-balance">You Are Losing Leads Every Day.</span>
             <br />
-            <span className="text-muted-foreground">Here's Why.</span>
+            <span className="text-muted-foreground">Here Is Why.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-2xl font-body text-lg leading-relaxed text-muted-foreground">
-            Most service businesses lose 40-60% of their leads due to slow response times 
-            and inconsistent follow-up. That's thousands of dollars walking out the door.
+            Most trade businesses lose leads because they cannot respond fast enough or 
+            follow up consistently. That means jobs going to your competitors.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ export function ProblemSection() {
                 47 hrs
               </div>
               <p className="mt-2 font-body text-sm text-muted-foreground">
-                average response time for service businesses
+                average response time for trade businesses
               </p>
             </div>
             <div>

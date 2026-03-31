@@ -4,41 +4,59 @@ export function MissionSection() {
   return (
     <section className="relative overflow-hidden bg-card py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-4">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          {/* Left Content */}
-          <div>
-            <p className="mb-4 font-heading text-sm uppercase tracking-[0.3em] text-primary">
-              Our Mission
+        {/* Founder Story */}
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-center font-heading text-sm uppercase tracking-[0.3em] text-primary">
+            Meet the Founder
+          </p>
+          <h2 className="text-center font-display text-3xl font-bold leading-tight text-foreground md:text-4xl">
+            Marco Perretta
+          </h2>
+          
+          <div className="mt-10 space-y-6 font-body text-lg leading-relaxed text-muted-foreground">
+            <p>
+              I come from a family business in the steel industry. Growing up around hard work 
+              and discipline taught me the value of doing things right and the importance of 
+              every customer relationship.
             </p>
-            <h2 className="font-display text-3xl font-bold leading-tight text-foreground md:text-4xl">
-              <span className="text-balance">Empowering Service Businesses</span>
-              <br />
-              <span className="text-primary">To Compete & Win</span>
-            </h2>
-            <p className="mt-6 font-body text-lg leading-relaxed text-muted-foreground">
-              We believe that every service business deserves enterprise-level automation 
-              without the enterprise price tag. Our mission is to level the playing field 
-              and give small and medium businesses the tools they need to dominate their markets.
+            <p>
+              I have always been good with computers and had a passion for business in general. 
+              When I started looking at how trade businesses operate, I saw a massive gap 
+              between what AI could do and how the trades were actually using technology.
             </p>
-            <p className="mt-4 font-body text-lg leading-relaxed text-muted-foreground">
-              Too many great businesses lose out on revenue because they can't respond 
-              fast enough or follow up consistently. We're here to fix that.
+            <p>
+              Here is the problem I kept seeing: businesses would hire a marketer who charges 
+              $500 to $2,000 a month, does some SEO and other basic services, and you have to 
+              constantly check in to make sure they are actually doing their job and finding you work. 
+              It is frustrating, expensive, and unreliable.
+            </p>
+            <p>
+              That is when it clicked. AI can replace these overpriced marketers with a system that 
+              runs 24/7, responds to leads instantly, and never takes a day off. You get more for 
+              your money, and you do not have to worry about a missed call or a late text costing 
+              you the job.
+            </p>
+            <p className="text-foreground">
+              That is why I built Imperium. AI Agents that fix this problem for good, at a fraction 
+              of the cost. Stay ahead of your competitors, or better yet, book a meeting or check out 
+              the pricing to see how we can help your business today.
             </p>
           </div>
+        </div>
 
-          {/* Right - Stats */}
-          <div className="grid gap-6 sm:grid-cols-2">
+        {/* Stats */}
+        <div className="mx-auto mt-16 max-w-3xl">
+          <div className="grid gap-6 sm:grid-cols-3">
             {[
-              { value: "50+", label: "Businesses Served" },
-              { value: "$2M+", label: "Revenue Generated" },
-              { value: "25K+", label: "Leads Captured" },
-              { value: "99.9%", label: "Uptime Guaranteed" },
+              { value: "8+", label: "Businesses Served" },
+              { value: "24/7", label: "AI Availability" },
+              { value: "Early Access", label: "Now Open" },
             ].map((stat) => (
               <div
                 key={stat.label}
                 className="rounded-2xl border border-border/50 bg-background p-8 text-center"
               >
-                <div className="font-display text-4xl font-bold text-primary">
+                <div className="font-display text-3xl font-bold text-primary md:text-4xl">
                   {stat.value}
                 </div>
                 <div className="mt-2 font-body text-sm text-muted-foreground">
