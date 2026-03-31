@@ -5,7 +5,6 @@ import { ProblemSection } from "@/components/home/problem-section"
 import { SolutionSection } from "@/components/home/solution-section"
 import { HowItWorks } from "@/components/home/how-it-works"
 import { FeaturesSection } from "@/components/home/features-section"
-import { TestimonialsSection } from "@/components/home/testimonials-section"
 import { CTASection } from "@/components/home/cta-section"
 
 export default function HomePage() {
@@ -17,7 +16,6 @@ export default function HomePage() {
       <SolutionSection />
       <HowItWorks />
       <FeaturesSection />
-      <TestimonialsSection />
       <CTASection />
       <Footer />
     </main>

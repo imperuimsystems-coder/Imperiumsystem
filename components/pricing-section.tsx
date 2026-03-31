@@ -70,24 +70,23 @@ const plans = [
 
 const yearlyPlan = {
   name: "Yearly Plan",
-  description: "Save $1,498 + get 2 months free",
-  price: "$749",
-  period: "/month",
-  billedAt: "Billed annually at $7,490",
-  savings: "SAVE 16.7%",
+  description: "Lock in the best value for your business",
+  price: "$8,988",
+  period: "/year",
+  billedAt: "Billed annually",
+  savings: "BEST VALUE",
   features: [
     "Everything in Professional",
-    "2 months FREE (pay for 10, get 12)",
+    "Priority onboarding and setup",
     "Quarterly strategy sessions",
     "Free tier upgrade if you outgrow",
     "Lead generation audit ($500 value)",
   ],
   comparison: {
-    monthly: "$8,988/year",
-    yearly: "$7,490/year",
-    savings: "$1,498",
+    monthlyTotal: "$8,988 x 12 months",
+    yearlyTotal: "$8,988.00 USD",
   },
-  bestFor: "Committed businesses looking for best value",
+  bestFor: "Committed businesses looking for the best value",
   stripeLink: "https://buy.stripe.com/7sY9AU5UuffD8fR8U97N604",
   calLink: "https://cal.com/imperuim-systems-vl0zgj/secret",
 }
@@ -231,28 +230,20 @@ export function PricingSection() {
               <div className="flex flex-col justify-between">
                 <div className="rounded-xl border border-border/50 bg-secondary/30 p-6">
                   <h4 className="font-heading text-sm uppercase tracking-wider text-muted-foreground">
-                    Your Savings
+                    Annual Payment
                   </h4>
                   
                   <div className="mt-4 space-y-3">
                     <div className="flex items-center justify-between border-b border-border/30 pb-3">
-                      <span className="font-body text-sm text-muted-foreground">Monthly:</span>
-                      <span className="font-body text-sm line-through text-muted-foreground">
-                        {yearlyPlan.comparison.monthly}
-                      </span>
-                    </div>
-                    <div className="flex items-center justify-between border-b border-border/30 pb-3">
-                      <span className="font-body text-sm text-foreground">Yearly:</span>
+                      <span className="font-body text-sm text-foreground">Total:</span>
                       <span className="font-body text-sm font-semibold text-foreground">
-                        {yearlyPlan.comparison.yearly}
+                        {yearlyPlan.comparison.yearlyTotal}
                       </span>
                     </div>
                     <div className="flex items-center justify-between pt-1">
+                      <span className="font-body text-sm text-muted-foreground">Per year</span>
                       <span className="font-heading text-sm font-semibold uppercase text-primary">
-                        You save:
-                      </span>
-                      <span className="font-display text-2xl font-bold text-primary">
-                        ${yearlyPlan.comparison.savings}
+                        Best Value
                       </span>
                     </div>
                   </div>

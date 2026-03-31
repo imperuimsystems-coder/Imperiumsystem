@@ -2,28 +2,28 @@
 
 const reasons = [
   {
-    title: "Built for Service Businesses",
-    description: "Unlike generic automation tools, Imperium was designed specifically for HVAC, roofing, contracting, and other service industries. We understand your workflows, your customers, and your challenges.",
+    title: "Built for All Trades",
+    description: "Unlike generic automation tools, Imperium was designed specifically for trade and service businesses. We understand your workflows, your customers, and your challenges.",
   },
   {
     title: "Human-First Automation",
-    description: "Our AI doesn't sound like a robot. Messages are personalized, contextual, and feel genuinely human. Your leads won't know they're talking to an automated system.",
+    description: "Our AI does not sound like a robot. Messages are personalized, contextual, and feel genuinely human. Your leads will not know they are talking to an automated system.",
   },
   {
     title: "Done-For-You Setup",
-    description: "No technical skills required. We handle the entire setup process - from connecting your lead sources to configuring your follow-up sequences. You're up and running in 48 hours.",
+    description: "No technical skills required. We handle the entire setup process, from connecting your lead sources to configuring your follow-up sequences. You are up and running fast.",
   },
   {
     title: "Transparent Pricing",
-    description: "No hidden fees, no surprise charges, no contracts that trap you. You know exactly what you're paying, and you can cancel anytime if we're not delivering results.",
+    description: "No hidden fees, no surprise charges. You know exactly what you are paying, and you can cancel anytime if we are not delivering results.",
   },
   {
     title: "Real Support from Real Humans",
-    description: "When you need help, you get a real person who knows your business - not a chatbot or a ticketing system. We're invested in your success.",
+    description: "When you need help, you get a real person who knows your business, not a chatbot or a ticketing system. We are invested in your success.",
   },
   {
-    title: "Proven Results",
-    description: "We've helped 50+ service businesses capture over $2M in additional revenue. Our track record speaks for itself.",
+    title: "Early Access Advantage",
+    description: "Join now during early access to lock in the best rates and get priority onboarding. Get ahead of your competitors before they catch on.",
   },
 ]
 

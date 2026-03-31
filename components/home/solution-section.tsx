@@ -16,7 +16,7 @@ const benefits = [
   {
     icon: Calendar,
     title: "Automated Scheduling",
-    description: "Leads book directly into your calendar without back-and-forth.",
+    description: "Leads book directly into your calendar without any back-and-forth.",
   },
   {
     icon: TrendingUp,
@@ -31,7 +31,7 @@ const benefits = [
   {
     icon: Clock,
     title: "Time Freedom",
-    description: "Automate 80% of your admin work and focus on what matters.",
+    description: "No more worrying about missed calls or late texts. Imperium handles it all so you can focus on the job.",
   },
 ]
 
@@ -55,12 +55,13 @@ export function SolutionSection() {
             </h2>
             <p className="mt-6 font-body text-lg leading-relaxed text-muted-foreground">
               From the moment a lead comes in to the moment they book, Imperium handles everything. 
-              No more missed calls, no more forgotten follow-ups, no more lost revenue.
+              No more missed calls, no more forgotten follow-ups, no more lost revenue. Replace 
+              overpriced marketers with AI that works 24/7 and costs a fraction of the price.
             </p>
 
             {/* Feature List */}
             <div className="mt-10 space-y-4">
-              {["Lead capture from any source", "Instant SMS & email response", "Smart follow-up sequences", "Automatic appointment booking", "Real-time analytics"].map((feature) => (
+              {["Lead capture from any source", "Instant SMS and email response", "Smart follow-up sequences", "Automatic appointment booking", "Real-time analytics dashboard"].map((feature) => (
                 <div key={feature} className="flex items-center gap-3">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-primary">
                     <svg className="h-3.5 w-3.5 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
